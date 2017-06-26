@@ -14,6 +14,7 @@ public class Person {
 
 	private String firstName;
 	private String lastName;
+	private boolean active = true;
 	
 	public String getFirstName() {
 		return firstName;
@@ -29,6 +30,14 @@ public class Person {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public boolean isActive() {
+		return active;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
 	}
 
 }
